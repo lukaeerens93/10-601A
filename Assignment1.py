@@ -41,7 +41,7 @@ def readFromFile(filename):
 # Main Code:
 
 # read the arguements from terminal:
-# ie: python hw1b.py input.txt
+# ie: python hw1b.py example.txt
 #
 # the input.txt is the arguement in question (sys.argv)
 
