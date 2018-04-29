@@ -1,0 +1,6 @@
+bd
+abc
+ac
+a
+d
+f
