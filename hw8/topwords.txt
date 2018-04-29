@@ -1,0 +1,9 @@
+The two lists look almost identical. Both from the actual words in them as well as their ordering.
+
+Almost all words are overlapping and almost all words are in the exact same position.
+
+Words that are not in the same position are often times just 1-2 positions away in the other list.
+
+These are some very general employed words in the english language and are probably the most common words that use in writing and in speaking.
+
+The words are mainly pronouns, prepositions, conjunctions and determiners. 

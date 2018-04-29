@@ -1,0 +1,16 @@
+q = 0.0 : I get: math domain error. Explanation provided at ($)
+q = 0.1 : I get: 0.8333
+q = 0.5 : I get: 0.8333
+q = 1.0 : I get: 0.8056
+q = 1.5 : I get: 0.6389
+
+Smaller values seem to improve the accuracy of the classifier. They tend to asymptote to 0.8611 if you go smaller than 0.1. The true location of the asymptote (if you zoom a bit more) lies around the q = 0.02 ballpark. 
+
+
+($) - Explanation for q = 0 leading to math domain error and consequences.
+
+If q = 0, the size of vocabulary is 0, and so a lot of your probabilities become 0. Products of probabilities where even just one among them is 0, will equal 0.
+
+Also in terms of log likelihood: If you are summing the log of conditional probabilities and one of those probabilities assumes a value of 0, then the log of that 0 probability becomes infinity, which means that your sum of log likelihoods reaches infinity.
+
+On the topic of classification, if vocabulary size is 0, then for both the conservative and liberal word sets, there will be 0 words, and so the argmax of the Naive Bayes Classification will not return a value bigger than the other. 

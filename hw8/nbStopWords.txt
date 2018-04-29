@@ -1,0 +1,15 @@
+N =  1 I get:	0.8056
+N =  5 I get:	0.8056
+N = 10 I get:	0.8056
+N = 20 I get: 	0.8056
+N = 30 I get: 	0.8333
+N = 40 I get: 	0.8611
+N = 50 I get: 	0.8611
+N = 60 I get: 	0.8611
+N = 70 I get: 	0.8611
+N = 80 I get: 	0.8611
+N = 90 I get: 	0.8611
+
+It seems to reach a maximum plateau of 0.8611 when N = 36. Beyond that any N value that is larger will yield 86.11% accuracy.
+
+So all in all, increasing N seems to increase the accuracy up until N = 36. Going backwards from N = 10 towards N = 0 yields no classification accuracy improvements

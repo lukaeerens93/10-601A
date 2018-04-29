@@ -1,0 +1,9 @@
+Did you receive any help whatsoever from anyone in solving this assignment?  Yes
+
+Did you give any help whatsoever to anyone in solving this assignment? No
+
+Did you find or come across code that implements any part of this assignment? No
+
+I discussed certain concepts with Karsh Tharyani, and he helped explain why certain parts of my code were not yielding the correct answer. These explanations mainly include spotting a very common mistake, which was to multiply the Prior with the sum of log likelihoods. 
+
+Karsh explained in a very general way, being very careful as to not give me any explicit answers, and instead questioned my intuition and allowed me to arrive at the answers myself. 

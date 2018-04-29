@@ -1,0 +1,9 @@
+The 20 words with the highest log odds for each class are all relatively uncommon words.
+
+Among them are underscores, ranges of dates, and proper nouns. Those that are words aren’t really used in regular discourse in english and so I would take it that many of them are jargon.
+
+As far as the words returned for split.train, the log-odds for conservative and log-odds for liberal don’t seem to share any words in common. So there doesn’t seem to be any overlap, at least for the top 20.
+
+These words are different from the ones in top words, in the sense that they are probably a better indicator of the words that will be found more in one label than for the other. Looking for the 20 most common words is not very helpful if almost all of the top words are the same for both labels and so it looks like using log odds can be a better approach to classifying based on commonality of words.
+
+These words seem to be almost uniquely employed in either only liberal blogs or only in conservative blogs.
